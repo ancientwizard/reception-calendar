@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//victor-wedding//calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:Lydia%20%26%20Victor%20Reception-20261107T190000Z@victor-wedding
+DTSTAMP:20260725T204226Z
+DTSTART:20261107T190000Z
+DTEND:20261107T210000Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Lydia & Victor Reception
+DESCRIPTION:Lydia & Victor's Reception\nSaturday\, November 7\, 2026 at 1:
+ 00 PM (13:00hrs) US/Central.\nSeating is limited to confirmed RSVPs.
+LOCATION:5151 N President George Bush Hwy\, Garland\, TX 75040
+END:VEVENT
+END:VCALENDAR
