@@ -8,6 +8,7 @@ export interface EventMeta
   timeZone: string;
   startUtc: string;        // e.g. 20261107T170000Z
   endUtc: string;          // e.g. 20261107T190000Z
+  mapsUrl: string;
 }
 
 export class CalendarEvent
@@ -18,6 +19,15 @@ export class CalendarEvent
   {
     this.meta = meta;
   }
+
+  get heading(): string { return this.meta.title.split(' ').reverse()[0] || 'Event'; }
+  get title()  : string { return this.meta.title; }
+  get description(): string[] { return this.meta.description; }
+  get location(): string { return this.meta.location; }
+  get timeZone(): string { return this.meta.timeZone; }
+  get startUtc(): string { return this.meta.startUtc; }
+  get endUtc()  : string { return this.meta.endUtc; }
+  get mapsUrl() : string { return this.meta.mapsUrl; }
 
   // --- ICS BUILDING ---------------------------------------------------------
 

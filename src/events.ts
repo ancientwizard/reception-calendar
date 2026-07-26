@@ -12,7 +12,8 @@ const WEDDING_EVENT =
   location: '2701 N Garland Ave, Garland, TX 75040',
   timeZone: 'America/Chicago',
   startUtc: '20261107T170000Z',
-  endUtc:   '20261107T190000Z'
+  endUtc:   '20261107T181500Z',
+  mapsUrl: 'https://maps.app.goo.gl/Po3sNKkJC1zXAiaB8'
 };
 
 const RECEPTION_EVENT =
@@ -27,7 +28,8 @@ const RECEPTION_EVENT =
   location: '5151 N President George Bush Hwy, Garland, TX 75040',
   timeZone: 'America/Chicago',
   startUtc: '20261107T190000Z',
-  endUtc:   '20261107T210000Z'
+  endUtc:   '20261107T210000Z',
+  mapsUrl: 'https://maps.app.goo.gl/y8TJMNEMouCUCTxg9'
 };
 
 export { WEDDING_EVENT, RECEPTION_EVENT };
